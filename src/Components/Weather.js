@@ -78,7 +78,6 @@ return (
   <div className='info'>
 
      <h3>{weather.name} {weather.sys?.country}</h3>
-
      <div className='pressure'>Pressure: {weather.main?.pressure}mb</div>
      &nbsp;
      
@@ -91,10 +90,6 @@ return (
     <div className='icon'>
      <img src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`}alt="" />
       <p><button className='button' onClick={changeUnit}>C° / F°</button></p>
-
-
-
-      
       <h3>{temperature.toFixed(1)}{units}</h3>
     </div>
 
@@ -104,7 +99,6 @@ return (
   
   </div>
       
-
 
         </>
     );

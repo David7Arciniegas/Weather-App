@@ -48,13 +48,12 @@ content.warm{
 
 
 .windspeed{
+ 
  display: flex;
  justify-content: center; 
  gap: 9px;
  
 }
-
-
 
 .sealevel{
 display: flex;
@@ -63,6 +62,7 @@ gap: 9px;
 }
 
 .description{
+   font-weight: 600;
   display: flex;
   justify-content: center;
   gap: 9px;
