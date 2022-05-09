@@ -1,0 +1,69 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+
+.icon{
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+}
+
+
+.content{
+  padding: 5rem;
+  background-image: url('https://acegif.com/wp-content/uploads/rainy-10.gif');
+  height: 100vh;
+  background-size: cover;
+}
+
+
+content.warm{
+  background-image: url('https://im5.ezgif.com/tmp/ezgif-5-ea64f1f1c2.gif');
+}
+
+.card{
+
+  font-size: larger;
+  font-family: 'Lato';
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  display: inline-block;
+  text-align: center;
+  background-color: #fefae0;
+  background: rgba(244, 215, 182, 0.5);
+  box-shadow: 1px 1px 3px 1px black;
+  border-radius: 2px;
+}
+
+.button{
+  background-color: sandybrown;
+}
+
+
+.windspeed{
+ display: flex;
+ justify-content: center; 
+ gap: 9px;
+ 
+}
+
+
+
+.sealevel{
+display: flex;
+justify-content: center;
+gap: 9px;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
